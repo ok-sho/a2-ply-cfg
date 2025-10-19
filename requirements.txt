@@ -1,0 +1,10 @@
+et_xmlfile==2.0.0
+graphviz==0.21
+openpyxl==3.1.5
+pydot==4.0.1
+pyparsing==3.2.5
+tock==0.391
+
+# also put ply directory in .venv/lib/
+# it isn't distributed properly through a package manager
+# see: https://github.com/dabeaz/ply/tree/master
