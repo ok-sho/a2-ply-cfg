@@ -91,7 +91,7 @@ def p_error(p):
 
 parser = yacc.yacc()
 
-print("Enter your grammar (press Enter on an empty line to finish):")
+'''print("Enter your grammar (press Enter on an empty line to finish):")
 lines = []
 while True:
     line = input()
@@ -102,4 +102,4 @@ while True:
 data = "\n".join(lines).strip()
 
 result = parser.parse(data, lexer=lexer)
-print(result)
+print(result)'''
