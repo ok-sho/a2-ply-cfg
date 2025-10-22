@@ -53,8 +53,12 @@ def cfg_PdaConvert(cfg, startSymbol, inputString):
         else:
             # If the top is  non-terminal try all its productions
             for production in cfg.get(top, []):
-                # Put production symbol on the stack
-                new_stack = stack[:-1] + production[::-1]
+                # Handle epsilon production explicitly
+                if production == [''] or production == [' ']:  # Empty means epsilon
+                    new_stack = stack[:-1]
+                else:
+                    # Put production symbols on the stack (reversed)
+                    new_stack = stack[:-1] + production[::-1]
                 # Call PDA with this new stack and the same input
                 if pda(new_stack, remainingInput):
                     # If any production leads to acceptance return True
