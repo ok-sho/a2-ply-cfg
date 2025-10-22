@@ -2,7 +2,7 @@ cfgExample = {
     'S': [['a', 'S', 'b'], []], 'A':[['x'],['S']]
 }
 
-inputString = 'aabbb'
+inputString = 'aabb'
 
 def cfg_PdaConvert(cfg, startSymbol, inputString):
     #List that will hold each letter
@@ -70,5 +70,5 @@ def cfg_PdaConvert(cfg, startSymbol, inputString):
 
 
 
-
+print("\n----------Case where grammar =  'S': [['a', 'S', 'b'], []], 'A':[['x'],['S']] and input string = aabb----------")
 print(cfg_PdaConvert(cfgExample, 'S', inputString))  # True

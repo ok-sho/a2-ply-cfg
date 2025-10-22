@@ -13,11 +13,11 @@ while True:
 
 data = "\n".join(lines).strip()
 
-stringInput = input("Enter the string")
+stringInput = input("Enter the string ")
 print(stringInput)
 
 result = parser.parse(data, lexer=lexer)
 print(result)
-print(next(iter(result)))
+print(f"Starting Symbol: {next(iter(result))}")
 
 print(cfg_PdaConvert(result,next(iter(result)),stringInput))
