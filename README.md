@@ -1,3 +1,16 @@
+# References
+
+Beazley, D. M. (n.d.). _PLY (Python Lex-Yacc)_. Dabeaz. Retrieved Oct 18, 2025, from https://www.dabeaz.com/ply/ply.html
+
+Campbell, R. (2025). _Week 5: Sec 2.1 Context-Free Grammars_ [PDF Lecture Slides]. Retrieved from https://brightspace.ufv.ca/content/enforced/21563-202509-91633/Week5/Sec2_1.pdf
+
+Campbell, R. (2025). _Week 6: Sec 2.2 Pushdown Automata_ [PDF Lecture Slides]. Retrieved 
+from https://brightspace.ufv.ca/content/enforced/21563-202509-91633/Week6/Sec2_2.pdf
+
+Levine, J. R., Mason, T., & Brown, D. (1992). _Lex & Yacc_. Retrieved from https://archive.org/details/lexyacc0000levi/
+
+Sipser, M. (2013). _Introduction to the Theory of Computation_ (3rd ed.). Cengage Learning
+
 # How to set up
 1. set up venv (Python 3.13.0)
 2. `pip install -r requirements.txt`
