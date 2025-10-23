@@ -7,6 +7,8 @@ Campbell, R. (2025). _Week 5: Sec 2.1 Context-Free Grammars_ [PDF Lecture Slides
 Campbell, R. (2025). _Week 6: Sec 2.2 Pushdown Automata_ [PDF Lecture Slides]. Retrieved 
 from https://brightspace.ufv.ca/content/enforced/21563-202509-91633/Week6/Sec2_2.pdf
 
+Chiang, D. (2022). *tock: Theory of Computing toolKit.* GitHub repository. https://github.com/ND-CSE-30151/tock
+
 Levine, J. R., Mason, T., & Brown, D. (1992). _Lex & Yacc_. Retrieved from https://archive.org/details/lexyacc0000levi/
 
 Sipser, M. (2013). _Introduction to the Theory of Computation_ (3rd ed.). Cengage Learning
