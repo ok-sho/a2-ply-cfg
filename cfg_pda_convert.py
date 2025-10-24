@@ -71,8 +71,3 @@ def cfg_PdaConvert(cfg, startSymbol, inputString):
         return "String is ACCEPTED"
     else:
         return "String is REJECTED"
-
-
-
-print("\n----------Case where grammar =  'S': [['a', 'S', 'b'], []], 'A':[['x'],['S']] and input string = aabb----------")
-print(cfg_PdaConvert(cfgExample, 'S', inputString))  # True

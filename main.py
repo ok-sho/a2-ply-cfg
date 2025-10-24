@@ -1,5 +1,5 @@
 from input_parce import parser, lexer
-from cfgPdaconvert import cfg_PdaConvert
+from cfg_pda_convert import cfg_PdaConvert
 
 
 print("Enter your grammar (press Enter on an empty line to finish):")
