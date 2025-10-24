@@ -1,3 +1,23 @@
+# Contributions
+### Wilson Agyapong
+- Implement CFG to PDA conversion
+- Presentation slides
+- Research & planning
+
+### Nikita Egorov
+- Implement CFG parser
+- Presentation slides
+- Research & planning
+
+### Gabriel Gourde
+- Presentation slides
+- Research & planning
+
+### Sho Okano
+- Create PLY & tock tutorial files
+- Presentation slides
+- Research & planning
+
 # References
 
 Beazley, D. M. (n.d.). _PLY (Python Lex-Yacc)_. Dabeaz. Retrieved Oct 18, 2025, from https://www.dabeaz.com/ply/ply.html
