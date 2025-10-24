@@ -11,6 +11,7 @@
 
 ### Gabriel Gourde
 - Presentation slides
+- Latex diagrams
 - Research & planning
 
 ### Sho Okano
